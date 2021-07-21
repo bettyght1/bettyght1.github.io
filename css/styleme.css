@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(68, 67, 65, 0.973);
+}
+.special{
+    color: whitesmoke;
+}
+p.shout::first-letter {
+    font-size: 2em;
+    float: left;
+    padding: 0.5px;
+    margin-right: 2px;
+  }
+  h1{
+      color:rgb(116, 164, 228);
+      text-align: center;
+      font-style:italic;
+      font-family: georgia;
+      font-weight: bold;
+  }
+h3{
+    color:rgb(116, 164, 228);
+    font-family:Courier, monospace;
+    font-size: large;
+}
+dt{
+    color: rgb(238, 255, 0);
+    font-style: italic;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
