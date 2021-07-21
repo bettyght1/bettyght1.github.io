@@ -1,8 +1,10 @@
 body{
-    background-color: rgba(71, 66, 56, 0.973);
+    background-color: rgba(224, 199, 147, 0.973);
+    color:black;
+    font-size: large;
 }
 .special{
-    color: whitesmoke;
+    color: rgb(20, 19, 19);
 }
 p.shout::first-letter {
     font-size: 2em;
@@ -11,19 +13,19 @@ p.shout::first-letter {
     margin-right: 2px;
   }
   h1{
-      color:rgb(116, 164, 228);
+      color:rgb(40, 124, 233);
       text-align: center;
       font-style:italic;
       font-family: georgia;
       font-weight: bold;
   }
-h3{
-    color:rgb(116, 164, 228);
+h2{
+    color:rgb(40, 124, 233);
     font-family:Courier, monospace;
     font-size: large;
 }
 dt{
-    color: rgb(238, 255, 0);
+    color: rgb(126, 30, 113);
     font-style: italic;
 }
 a{
