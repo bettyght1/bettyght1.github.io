@@ -26,4 +26,7 @@ a{
 }
 li{
     list-style-image: url(pie_icon.gif);
+    font-style: oblique;
+    color:rgb(202, 27, 109);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    }
