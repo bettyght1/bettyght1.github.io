@@ -3,6 +3,12 @@ body{
     color:#404040;
     font-family: Georgia, Garamond, serif;
     background-image: url("silverware.jpg");
+    height: 100vh;
+    overflow: hidden;
+}
+#page-container{
+    height: 100%;
+    overflow-y: scroll;
 }
 h1, h3{
     color: #A4A400;

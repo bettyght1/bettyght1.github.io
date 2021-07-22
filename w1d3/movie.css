@@ -1,0 +1,135 @@
+body{
+	background-image: url('background.png');
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#header{
+	height: 50px;
+	background-image: url('bannerbg.png');
+}
+.Banner
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner{
+    background-image: url("bannerbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:static;  
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Verdana, Tahoma, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+#content {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid gray;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.criticalReview {
+	width: 550px;
+	float: left;
+}
+.rottenBanner {
+	background-image: url("rbg.png");
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+.rottenBanner img {
+	vertical-align: bottom;
+	height: 83px;
+}
+
+
+.review {
+	border: 2px solid gray;
+	background-color: #E8DC9B;
+	border-radius: 10px;
+	font-weight: bold;
+	padding:8px;
+	overflow: hidden;
+}
+
+.review img{
+	padding-right: 5px;
+	float: left;
+	vertical-align: top;
+}
+.review img {
+	margin-right: 5px;
+	vertical-align: top;
+	float: left;
+}
+
+.critic {
+	margin-bottom: 20pt;
+}
+.critic img {
+	margin-right: 5px;
+	vertical-align: top;
+	float: left;
+}
+.sectionone {
+	float: left;
+	width: 47%;
+	margin-left: 2%;	
+}
+.sectiontwo{
+	float: right;
+	width: 47%;
+	margin-right: 2%;	
+}
+.movieoverview {
+	width: 250px;
+	float: right;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	background-color: #A2B964;
+}
+.movieoverview .cast {
+	margin: 10pt;
+}
+.movieoverview dt {
+	font-weight: bold;
+	margin-top: 10pt;
+}
+.movieoverview ul, li {
+	list-style: none;
+}
+
+.bottom-content {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+}
+
+#validator {
+	bottom: 0px;
+	right: 0px;
+}
+#validator img {
+	opacity: 0.5;
+}
