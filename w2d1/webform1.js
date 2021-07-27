@@ -16,11 +16,11 @@ function checkRegExp() {
     let urlRegExpression = new RegExp("https?://.+");
 
     if (!userPasswordInput.match(passwordExpression))
-        alert("Please, input a correct password!!");
+        alert("Please, enter correct password!!");
     if (!userUrlInput.match(urlRegExpression))
-        alert("Please, input a correct url!!");
+        alert("Please, enter correct url!!");
 
     if (userPasswordInput.match(passwordExpression) && userUrlInput.match(urlRegExpression))
-        alert("submition successfull!!");
+        alert("submited Successfuly!!");
 
 }
