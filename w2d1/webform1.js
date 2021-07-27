@@ -4,8 +4,8 @@ window.onload = function () {
 }
 function checkRegExp() {
 
-    let passwordInput = document.getElementById("inputPassword");
-    let urlInput = document.getElementById("inputUrl");
+    let passwordInput = document.getElementById("passwordInput");
+    let urlInput = document.getElementById("urlInput");
     let userPasswordInput = passwordInput.value;
     let userUrlInput = urlInput.value;
 
