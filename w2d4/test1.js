@@ -21,6 +21,6 @@ describe("Display 'Joe is now teaching Inheritance' from teacher's object",()=>{
     var teacher = new Teacher();
     teacher.initialize("joe", 45);
     it("should pass subject as @param and display teacher's name and what he is teaching",()=>{
-        assert.deepEqual(him.teach("Inheritance"), "Joe is now teaching Inheritance");
+        assert.deepEqual(teacher.teach("Inheritance"), "Joe is now teaching Inheritance");
     });
 });
