@@ -47,8 +47,9 @@ var teacher = new Teacher();
 teacher.initialize("Joe", 45);
 
 
-console.log("Q1:- chai has a lot of stuff, let's make assert global".filter("has ", 'let\'s ', 'assert'));
+
+console.log("Q1:- This is not and never don't nice house".filter("not ", 'never ', 'don\'t '));
 
 console.log("Q2:- Sorted array = "+[6,4,0, 3,-2,1].bubbleSort()); //[-2, 0, 1, 3, 4, 6]
 
-console.log("Q3:- "+teacher.teach("WAP"));
+console.log("Q3:- "+teacher.teach("Inheritance"));
