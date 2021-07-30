@@ -24,7 +24,7 @@
  describe("filterLongWords", function() {
 
     it("filters words longer than i", function() {
-      assert.equal(filterLongWords(["feven", "function", "multiply", "sum", "user"], 6).toString(), ["function", "multiply"].toString());
+      assert.deepEqual(filterLongWords(["feven", "function", "multiply", "sum", "user"], 6), ["function", "multiply"]);
     });
   
   }); 
