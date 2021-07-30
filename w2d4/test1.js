@@ -5,7 +5,7 @@ let assert = chai.assert;
 //Exercise 1:  Test the filter() method
 describe("Removing banned words from sentence",()=>{
     it("should filter out all banned words",()=>{
-        assert.deepEqual("This is not and never don't nice house".filter("not ", 'never ', 'don\'t '), "This is and nice house");
+        assert.deepEqual("chai has a lot of stuff, let's make assert global".filter("has ", 'let\'s ', 'assert'), "chai a lot of stuff, make global");
     });
 });
 
@@ -17,10 +17,10 @@ describe("Sort an array using the BubbleSort algorithm",()=>{
 });
 
 //Exercise 3: Test the teach() method of Teacher's object
-describe("Display 'Joe is now teaching Inheritance' from teacher's object",()=>{
+describe("Display 'Joe is now teaching WAP' from teacher's object",()=>{
     var teacher = new Teacher();
     teacher.initialize("joe", 45);
     it("should pass subject as @param and display teacher's name and what he is teaching",()=>{
-        assert.deepEqual(teacher.teach("Inheritance"), "Joe is now teaching Inheritance");
+        assert.deepEqual(teacher.teach("WAP"), "Joe is now teaching WAP");
     });
 });
