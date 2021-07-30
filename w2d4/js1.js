@@ -42,9 +42,9 @@ Teacher.prototype.teach = function(subject){
     return this.name + " is now teaching " + subject;
 }
 
-var teacher = new Teacher();
+var him = new Teacher();
 
-teacher.initialize("Joe", 45);
+him.initialize("Joe", 45);
 
 
 
@@ -52,4 +52,4 @@ console.log("Q1:- This is not and never don't nice house".filter("not ", 'never 
 
 console.log("Q2:- Sorted array = "+[6,4,0, 3,-2,1].bubbleSort()); //[-2, 0, 1, 3, 4, 6]
 
-console.log("Q3:- "+teacher.teach("Inheritance"));
+console.log("Q3:- "+him.teach("Inheritance"));

@@ -18,8 +18,8 @@ describe("Sort an array using the BubbleSort algorithm",()=>{
 
 //Exercise 3: Test the teach() method of Teacher's object
 describe("Display 'Joe is now teaching Inheritance' from teacher's object",()=>{
-    var teacher = new Teacher();
-    teacher.initialize("joe", 45);
+    var him = new Teacher();
+    him.initialize("joe", 45);
     it("should pass subject as @param and display teacher's name and what he is teaching",()=>{
         assert.deepEqual(him.teach("Inheritance"), "Joe is now teaching Inheritance");
     });
