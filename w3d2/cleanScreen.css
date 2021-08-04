@@ -1,0 +1,21 @@
+body{
+    margin :10px;
+}
+#all{
+    position: relative;
+    top: 150px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#startButton{
+    background-color: rgb(6, 36, 138);
+    color:white;
+    font-size: 18px;
+    width:100px;
+    margin:auto;
+}
+#container{
+    float:right;
+    width:85%;
+    height:400px;
+    position: relative;
+}
