@@ -4,11 +4,13 @@ $(function () {
 
     $("div.boundary").on("mouseover", lost);
     $("#start").click(reset);
-    $("#end").click(function () {
+    $("#end").mouseover(function () {
         if (!lose & !wrongDirection)
-            alert("You win:]");
+        $("#status").html("You win");
+            //alert("You win:]");
         else if(wrongDirection)
-            alert("you followed the wrong direction!!");
+        $("#status").html("you followed the wrong direction!!");
+            //alert("you followed the wrong direction!!");
         
     });
 
@@ -24,9 +26,11 @@ $(function () {
 
         $("div.boundary").addClass("youlose");
         if (!lose)
-            alert("Sorry, you lost");
+        $("#status").html("Sorry, you lost");
+            //alert("Sorry, you lost");
         else
-            alert("Click, on start to statover!")
+        $("#status").html("Click, on start to statover!");
+           // alert("")
         lose = true;
 
     }
